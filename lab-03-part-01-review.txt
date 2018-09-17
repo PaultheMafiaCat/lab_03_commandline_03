@@ -15,7 +15,7 @@ This lab will review downloading and uncompressing files, and it will get us set
 
 Write the command that you used to do this below:
 ----------
-
+cd ~
 
 
 ==========
@@ -23,7 +23,7 @@ Write the command that you used to do this below:
 
 Write the command that you used to do this - as well as its output - below :
 ----------
-
+pwd
 
 
 ==========
@@ -32,7 +32,7 @@ Write the command that you used to do this - as well as its output - below :
 Write the command(s) that you used to determine this - as well as its output - below:
 ----------
 
-
+nothing
 
 ==========
 4. If there are directories or files in your home directory that have the word mtec1002 in them, list them below (otherwise skip this step):
@@ -66,7 +66,7 @@ This command should have a *flag* to specify the output file.  MAKE SURE TO NAME
 Write the command(s) that you used to download this file - as well as its output - below:
 ----------
 
-
+curl -o mtec1003-lab-03.tar.gz http://entertainmenttechnology.github.io/Wilson-MTEC1003-lab-03.tar.gz
 
 ==========
 7.  Uncompress the file that you just downloaded.
@@ -74,7 +74,8 @@ Write the command(s) that you used to download this file - as well as its output
 Write the command(s) that you used to do this - as well as its output - below:
 ----------
 
-
+tar: Unrecognized archive format
+tar: Error exit delayed from previous errors.
 
 ==========
 8.  You should now have a directory called mtec1002-lab-03 in your home directory.  Verify that this directory exists.
@@ -88,6 +89,20 @@ Otherwise...
 
 Write the command(s) that you used to do this - as well as its output - below:
 ----------
+
+ls
+-p			Pictures		makefile.txt
+Adlm			Public			mtec1002-lab-02
+Adobe			QLData			mtec1002-lab-02.zip
+Applications		Things			mtec1003-lab-03
+Desktop			__MACOSX		mtec1003-lab-03.tar.gz
+Documents		drills.py		mtech1002
+Downloads		edwin			mtech1002-lab-02.zip
+Library			google.com.html		mtech1003-lab-03.tar.gz
+MPLABXProjects		ipe.properties		oil
+Movies			isus			pg1232.txt
+Music			itstotallyPG.jpg.gz	pymel.log
+New Unity Project	itstotallyPG.tar	stuff
 
 
 
