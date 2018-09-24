@@ -37,6 +37,8 @@ $ ls
 Copy and paste the output below.
 ----------
 
+$ ls
+foo.txt
 
 
 ==========
@@ -53,6 +55,8 @@ $ touch bar.txt
 Copy and paste the output below.
 ----------
 
+$ ls
+bar.txt  foo.txt
 
 
 ==========
@@ -61,21 +65,30 @@ Copy and paste the output below.
 
 Write the command that you used to copy the file.  Additionally, copy and paste the output of your file listing below.
 ----------
+cp
 
-
+$ ls
+bar.txt  baz.txt  foo.txt
 
 ==========
 10. Delete the file called bar.txt and then list the files again.
 
 Write the command that you used to remove the file.  Copy and paste the output of your file listing below.
 ----------
+rm
+$ ls
+baz.txt  foo.txt
+
 ==========
 11. Move the file called foo.txt to qux.txt and then list the files again.
 
 
 Write the command that you used to move the file.  Copy and paste the output of your file listing below.
 ----------
+mv
 
+$ ls
+baz.txt  qux.txt
 
 
 ==========
@@ -91,6 +104,8 @@ Write the command that you used to move the file.  Copy and paste the output of 
 Write out the command that you used and what happened.
 ----------
 
+$ rmdir my_files
+rmdir: failed to remove 'my_files': Directory not empty
 
 
 ==========
@@ -99,7 +114,8 @@ Write out the command that you used and what happened.
 Write out the command that you used and what happened.
 ----------
 
-
+$ rm my_files
+rm: cannot remove 'my_files': Is a directory
 
 ==========
 15. MAKE SURE YOU'RE IN THE mtec1002-lab-03 directory!  
@@ -109,7 +125,7 @@ Force the removal of the directory and files using the -rf flag
 $ rm -rf my_files
 ----------
 
-
+no output
 
 ==========
 16. There's a txt file version of a book located in the mtec1002-lab-03 folder.  It is in the following directory if you're in the lab folder:
